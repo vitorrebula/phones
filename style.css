@@ -170,30 +170,29 @@ header .sopa {
 }
 
 .produtos {
-  justify-content: center;
   padding-bottom: 45vh;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  display: grid;
+  grid-template: "t t t" "ip mb ac";
 }
 .produtos h3 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 30px;
 }
-
-.imgprodutos {
-  align-items: center;
-  justify-content: center;
-  gap: 70px;
-  display: grid;
-  grid-template: "ip mb ac";
-}
-.imgprodutos img {
+.produtos img {
   max-width: 350px;
-  cursor: pointer;
   margin-bottom: 10px;
 }
-.imgprodutos h4 {
+.produtos h4 {
   font-size: 1.5rem;
   text-align: center;
+}
+
+.titulo {
+  grid-area: t;
 }
 
 .iphone {
@@ -294,9 +293,25 @@ header .sopa {
   .hero {
     margin-top: 0;
   }
+  .produtos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .logofooter {
+    display: block;
+    margin: 0 auto;
+  }
+  .content {
+    display: none;
+  }
+  .ifooter {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .aboutviriato {
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap-reverse;
