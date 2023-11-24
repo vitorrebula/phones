@@ -169,6 +169,62 @@ header .sopa {
   grid-area: cw;
 }
 
+.produtos {
+  justify-content: center;
+  padding-bottom: 45vh;
+}
+.produtos h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.imgprodutos {
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  display: grid;
+  grid-template: "ip mb ac";
+}
+.imgprodutos img {
+  max-width: 350px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.imgprodutos h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.iphone {
+  grid-area: ip;
+}
+
+.mcbook {
+  grid-area: mb;
+}
+
+.acessorios {
+  grid-area: ac;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer img {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 300px;
+}
+.footer h3 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 #fixed-button {
   font-size: 3rem;
   color: #000000;
