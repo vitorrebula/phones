@@ -129,6 +129,7 @@ header .sopa {
 .aboutviriato h3 {
   font-size: 2rem;
   line-height: 2;
+  color: #4e6490;
 }
 .aboutviriato p {
   line-height: 1.5;
@@ -156,6 +157,7 @@ header .sopa {
 .whyviriato h3 {
   font-size: 2rem;
   line-height: 2;
+  color: #4e6490;
 }
 .whyviriato p {
   line-height: 1.5;
@@ -182,6 +184,7 @@ header .sopa {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 30px;
+  color: #4e6490;
 }
 .produtos img {
   max-width: 350px;
