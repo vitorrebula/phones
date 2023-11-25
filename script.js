@@ -6,7 +6,22 @@ menu.onclick = () => {
     navbar.classList.toggle('active'); //vai dar a classe active para o navbar, que faz o "polígono cheio"
 };
 
-let mcair = document.querySelector('#mcairmenu');
-let mcpro = document.querySelector('#mcpromenu');
+let mcairmenu = document.querySelector('#mcairmenu');
+let mcpromenu = document.querySelector('#mcpromenu');
 
+let mcpro = document.querySelector('#mcpro');
+let mcair = document.querySelector('#mcair');
 
+mcairmenu.onclick = () => {
+    mcair.classList.add('active');
+    mcpro.classList.remove('active');
+    mcpro.classList.add('hide');
+    mcair.classList.remove('hide');   
+}
+
+mcpromenu.onclick = () => {
+    mcpro.classList.add('active');
+    mcair.classList.remove('active');
+    mcpro.classList.remove('hide');
+    mcair.classList.add('hide'); 
+}
