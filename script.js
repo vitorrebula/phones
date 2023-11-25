@@ -25,3 +25,23 @@ mcpromenu.onclick = () => {
     mcpro.classList.remove('hide');
     mcair.classList.add('hide'); 
 }
+
+let appwatchmenu = document.querySelector('#amenu');
+let airpodsmenu = document.querySelector('#bmenu');
+
+let appwatch = document.querySelector('#appwatch');
+let airpods = document.querySelector('#airpods');
+
+appwatchmenu.onclick = () => {
+    appwatch.classList.add('active');
+    appwatch.classList.remove('hide');
+    airpods.classList.remove('active');
+    airpods.classList.add('hide'); 
+}
+
+airpodsmenu.onclick = () => {
+    airpods.classList.add('active');
+    airpods.classList.remove('hide');
+    appwatch.classList.remove('active');
+    appwatch.classList.add('hide');
+}
