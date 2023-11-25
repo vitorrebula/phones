@@ -128,8 +128,9 @@ header .sopa {
 }
 .aboutviriato h3 {
   font-size: 2rem;
-  line-height: 2;
+  line-height: 1.2;
   color: #4e6490;
+  margin-bottom: 1vh;
 }
 .aboutviriato p {
   line-height: 1.5;

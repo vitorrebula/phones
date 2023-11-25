@@ -241,16 +241,8 @@ header{
     }
 }
 @media ( max-width: 991px ){
-    *{
-        margin-right: 15px;
-        margin-left: 10px;
-        gap: 0;
-    }
-    #mcpromenu{
-        margin: 0;
-    }
-    #mcairmenu{
-        margin: 0;
+    img{
+        max-width: 100%;
     }
     .mcpro{
         display: grid;
@@ -264,8 +256,10 @@ header{
     }
     .titulo{
         grid-area: ti;
+        margin: 2vh 5vw;
     }
     .imgspro{
+        margin: 0 5vw;
         grid-area: img;
         grid-template: 
         "mc"
@@ -297,6 +291,11 @@ header{
     .chipm2{
         grid-area: c2;
         margin-bottom: 5vh;
+        h3{
+            margin: 0 2vw;
+            text-align: center;
+            margin-bottom: 5vh;
+        }
     }
     .chipm3{
         grid-area: c3;
@@ -313,5 +312,10 @@ header{
     }
     .ifooter{
         display: none;
+    }
+}
+@media ( max-width: 767px ){
+    p{
+        font-size: 1rem;
     }
 }
