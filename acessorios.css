@@ -300,6 +300,9 @@ header .garfo {
   .ifooter {
     display: none;
   }
+  .content {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   p {
