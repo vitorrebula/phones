@@ -357,6 +357,20 @@ header .sopa {
     font-size: 1rem;
   }
 }
+@media (max-width: 550px) {
+  header img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 150px;
+  }
+  header .logo {
+    margin: 0;
+  }
+  .hero {
+    margin-top: 0;
+  }
+}
 @media (max-width: 350px) {
   .produtos img {
     max-width: 250px;
