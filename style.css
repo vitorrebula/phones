@@ -102,14 +102,14 @@ header .sopa {
 }
 
 .button-contact:hover {
-  background-color: #000000;
+  background-color: #4e6490;
   color: #ffffff;
 }
 
 .button-contact1 {
   border: 1px solid #000000;
-  background-color: #4e6490;
-  color: #ffffff;
+  background-color: transparent;
+  color: #000000;
   padding: 8px 24px;
   border-radius: 4px;
   margin: 1vh;
@@ -119,6 +119,11 @@ header .sopa {
   margin-right: 8px;
   text-decoration: none;
   animation: scalebutton 0.8s alternate infinite;
+}
+
+.button-contact1:hover {
+  background-color: #4e6490;
+  color: #ffffff;
 }
 
 @keyframes scalebutton {
