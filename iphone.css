@@ -30,11 +30,11 @@ body {
 }
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #4e6490;
+  background-color: #000000;
 }
 
 header {
