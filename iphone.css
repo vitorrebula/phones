@@ -167,7 +167,7 @@ header .garfo {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   gap: 20px;
 }
 .footer img {
@@ -179,6 +179,7 @@ header .garfo {
 .footer h3 {
   font-size: 2rem;
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 @media (max-width: 991px) {

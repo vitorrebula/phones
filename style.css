@@ -238,7 +238,7 @@ header .sopa {
 .footer {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: end;
   gap: 20px;
 }
 .footer img {
@@ -250,6 +250,7 @@ header .sopa {
 .footer h3 {
   font-size: 2rem;
   text-align: center;
+  margin-bottom: 10vh;
 }
 
 #fixed-button {
@@ -295,6 +296,11 @@ header .sopa {
   color: #ffffff;
 }
 
+@media (max-width: 1212px) {
+  .produtos img {
+    max-width: 280px;
+  }
+}
 @media (max-width: 991px) {
   .bg-home {
     width: 100%;
@@ -330,6 +336,7 @@ header .sopa {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    max-width: 100%;
   }
   .logofooter {
     display: block;

@@ -238,7 +238,7 @@ header{
 .footer{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     gap: 20px;
     img{
         margin: 0;
@@ -249,7 +249,9 @@ header{
     h3{
         font-size: 2rem;
         text-align: center;
+        margin-bottom: 10vh;
     }
+    
 }
 //fimfooter
 
@@ -297,7 +299,13 @@ header{
         color: $branco;
     }
 }
-
+@media (max-width: 1212px){
+    .produtos{
+        img{
+            max-width: 280px;
+        }
+    }
+}
 @media (max-width: 991px){
     .bg-home{
         width: 100%;
@@ -333,6 +341,7 @@ header{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        max-width: 100%;
     }
     .logofooter{
         display: block;
