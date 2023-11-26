@@ -100,9 +100,19 @@ header{
     text-decoration: none;
 }
 .button-contact:hover{
+    background-color: $preto;
+    color: $branco;
+}
+.button-contact1{
     border: 1px solid $preto;
     background-color: $azulescuro;
     color: $branco;
+    padding: 8px 24px;
+    border-radius: 4px;
+    margin: 1vh;
+    user-select: none;
+    margin-right: 8px;
+    text-decoration: none;
     animation: scalebutton 0.8s alternate infinite;
 }
 @keyframes scalebutton {
