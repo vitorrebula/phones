@@ -298,15 +298,23 @@ header{
         margin: 0;
     }
     .footer{
-        display: flex;
+        grid-area: fo;
+        display: grid;
         flex-direction: column;
         flex-wrap: wrap;
+        grid-template:
+        "if lf cf";
     }
     .ifooter{
         display: none;
+        grid-area: if;
     }
     .content{
         display: none;
+        grid-area: cf;
+    }
+    .logofooter{
+        grid-area: lf;
     }
 }
 
