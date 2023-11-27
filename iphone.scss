@@ -77,7 +77,7 @@ header{
     flex-wrap: wrap;
     margin-bottom: 10vh;
     .imgiphone{
-        max-width: 40%;
+        max-width: 100%;
         img{
             display: block;
             margin: auto;
@@ -170,7 +170,15 @@ header{
         margin-bottom: 10vh;
     }
 }
-
+@media ( max-width: 1440px){
+    .imgiphone{
+        max-width: 40%;
+        img{
+            display: block;
+            margin: auto;
+        }
+    }
+}
 
 @media ( max-width: 991px){
     .img{
